@@ -20,5 +20,5 @@ This project implements a simple banking system in Python. It includes functiona
 Clone the repository:
 
 ```bash
-git clone https://github.com/amiiirm8/banking-project.git
+git clone https://github.com/amiiirm8/simple-banking-system-python.git
 cd simple-banking-system-python
