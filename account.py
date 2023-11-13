@@ -29,7 +29,7 @@ class BankAccount:
         self.balance = balance   
         self.account_number = str(uuid.uuid4())[:8] 
         self.password = self.set_password()    
-        self.card = Card.generate_card(self.account_number)
+        self.card = card.generate_card(self.account_number)
         self.transaction_history = []
         BankAccount.accounts[self.card.card_number] = self
 
