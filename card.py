@@ -5,6 +5,8 @@ import random
 import datetime
 import json
 
+logging.basicConfig(filename='bank.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
+
 
 class Card:         
         
